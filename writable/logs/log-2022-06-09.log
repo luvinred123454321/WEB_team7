@@ -1,0 +1,10 @@
+CRITICAL - 2022-06-09 12:30:46 --> Invalid file: pages/Home.php
+#0 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Home.php')
+#1 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('pages/Home', Array, true)
+#2 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\app\Controllers\pages.php(10): view('pages/Home', Array)
+#3 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

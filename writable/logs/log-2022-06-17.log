@@ -1,0 +1,28 @@
+CRITICAL - 2022-06-17 17:19:20 --> Invalid file: pages.php
+#0 C:\xampp\htdocs\konoha_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages.php')
+#1 C:\xampp\htdocs\konoha_ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages', Array, true)
+#2 C:\xampp\htdocs\konoha_ci4\app\Views\pages\home.php(29): view('pages')
+#3 C:\xampp\htdocs\konoha_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\konoha_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\konoha_ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/Home', Array, true)
+#6 C:\xampp\htdocs\konoha_ci4\app\Controllers\pages.php(10): view('pages/Home', Array)
+#7 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(825): App\Controllers\pages->index()
+#8 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#9 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\konoha_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\konoha_ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-17 17:19:22 --> Invalid file: pages.php
+#0 C:\xampp\htdocs\konoha_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages.php')
+#1 C:\xampp\htdocs\konoha_ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages', Array, true)
+#2 C:\xampp\htdocs\konoha_ci4\app\Views\pages\home.php(29): view('pages')
+#3 C:\xampp\htdocs\konoha_ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\konoha_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\konoha_ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/Home', Array, true)
+#6 C:\xampp\htdocs\konoha_ci4\app\Controllers\pages.php(10): view('pages/Home', Array)
+#7 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(825): App\Controllers\pages->index()
+#8 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#9 C:\xampp\htdocs\konoha_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\konoha_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\konoha_ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
